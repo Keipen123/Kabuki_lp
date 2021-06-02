@@ -1,10 +1,16 @@
 <template>
   <div>
-    
+    <HeroSection />
   </div>
 </template>
 
 <script>
-export default {}
+import HeroSection from '@/components/Hero/HeroSection'
+
+export default {
+  components: {
+    HeroSection
+  }
+}
 </script>
 
