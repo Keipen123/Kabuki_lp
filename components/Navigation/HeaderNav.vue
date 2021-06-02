@@ -1,8 +1,11 @@
 <template>
   <div>
-    <nav class="h-16 flex flex-row justify-between items-center bg-black">
+    <nav class="h-16 flex flex-row justify-between items-center bg-black fixed w-full z-50">
       <div>
-        <a class="text-3xl font-bold text-white" href="#">KABUKI</a>
+        <a class="text-3xl font-bold text-white flex items-center" href="#">
+          <img class="h-12" src="@/assets/images/kabuki_icon_dog.png" alt="">
+          <span class="ml-3">KABUKI COIN</span>
+        </a>
       </div>
       <ul class="hidden md:flex flex-row">
         <nav-item :mobile="false">STORY</nav-item>
