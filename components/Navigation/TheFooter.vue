@@ -1,6 +1,6 @@
 <template>
 
-  <footer class="bg-black flex flex-col sm:flex-row sm:justify-between sm:items-center py-3 sm:py-5 lg:py-10">
+  <footer class="bg-black flex flex-col sm:flex-row sm:justify-between sm:items-center py-3 sm:py-5 lg:py-10 px-3 md:px-10">
     <div class="order-2 sm:order-1">
       <div>
         <a href="#" class="text-xl sm:text-3xl font-bold text-white flex items-center">

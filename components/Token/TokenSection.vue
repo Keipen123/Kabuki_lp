@@ -1,5 +1,5 @@
 <template>
-  <section id="token" class="py-20 sm:py-40">
+  <section id="token" class="py-20 sm:py-40 section-container">
     <div class="flex justify-center">
       <img src="@/assets/images/kabuki_mask.png" alt="">
     </div>
