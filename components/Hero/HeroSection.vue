@@ -28,7 +28,7 @@ export default {
 }
 
 .kabuki-man {
-  @apply absolute w-44 right-0 md:w-64 md:right-32 bottom-0;
+  @apply absolute w-44 right-0 md:w-56 md:right-32 -bottom-24;
 }
 
 </style>
