@@ -1,5 +1,5 @@
 <template>
-  <div class="light-background">
+  <div class="light-background section-container">
     <slot></slot>
   </div>
 </template>

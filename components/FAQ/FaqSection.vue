@@ -1,6 +1,7 @@
 <template>
-  <section id="faq">
-    <DarkBackground class="py-20 sm:py-40">
+  
+  <DarkBackground class="py-20 sm:py-40">
+    <section id="faq">
       <div class="pb-8 sm:pb-16">
         <SectionTitle>
           <template v-slot:default>
@@ -10,8 +11,9 @@
       </div>
 
       <FaqLists />
-    </DarkBackground>
-  </section>
+    </section>
+  </DarkBackground>
+  
 </template>
 
 <script>

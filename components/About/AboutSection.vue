@@ -1,6 +1,7 @@
 <template>
-  <section>
-    <DarkBackground class="py-20 sm:py-40">
+  
+  <DarkBackground class="py-20 sm:py-40">
+    <section>
       <div class="flex justify-center pb-8 sm:pb-16">
         <SectionTitle>
           <template v-slot:default>
@@ -13,9 +14,9 @@
       </div>
 
       <AboutContents />
-
-    </DarkBackground>
-  </section>
+    </section>
+  </DarkBackground>
+  
 </template>
 
 <script>
