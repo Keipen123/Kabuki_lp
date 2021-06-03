@@ -8,7 +8,15 @@ module.exports = {
       },
       textColor: {
         'brown': '#decfb3'
-      }
+      },
+      spacing: {
+        '108': '27rem',
+        '120': '30rem',
+        '144': '36rem',
+        '156': '39rem',
+        '168': '42rem',
+        '180': '45rem'
+      },
     },
   },
   variants: {

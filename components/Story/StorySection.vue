@@ -1,5 +1,5 @@
 <template>
-  <section class="relative">
+  <section id="story" class="relative">
     <LightBackground>
 
       <img class="w-52 md:w-80 lg:w-96 absolute right-0 top-36" src="@/assets/images/kabuki_man2.png" alt="">
