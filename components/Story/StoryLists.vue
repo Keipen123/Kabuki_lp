@@ -20,7 +20,7 @@
     <li class="flex justify-center md:justify-start">
       <StoryCard>
         <template v-slot:title>
-          02
+          本物への想い 02
         </template>
         <template v-slot:content>
           <p>「本物」の意味には作品の真贋だけでなく、見せかけではなく実質の価値を備えているという意味もある。</p>
@@ -37,7 +37,7 @@
     <li class="flex justify-center md:justify-end">
       <StoryCard>
         <template v-slot:title>
-          03
+          本物への想い 03
         </template>
         <template v-slot:content>
           <p>2の部分においてそれは作品だけでなく実社会における事業においても当てはまる。見かけだけ良い事業は必ずメッキが剥がれる。このNFT業界もその通りで、急速に盛り上がりをみせたものの今は少し落ち着きを見せている。これから先本格的な淘汰が始まり収斂されていくだろう。私達はそのように進むことを望んでおり本物だけが残るフィールドで戦いたい。</p>
