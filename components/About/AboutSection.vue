@@ -14,6 +14,9 @@
       </div>
 
       <AboutContents />
+
+      <AboutLists />
+
     </section>
   </DarkBackground>
   
@@ -23,12 +26,14 @@
 import DarkBackground from '@/components/UI/DarkBackground'
 import SectionTitle from '@/components/UI/SectionTitle'
 import AboutContents from '@/components/About/AboutContents'
+import AboutLists from '@/components/About/AboutLists'
 
 export default {
   components: {
     DarkBackground,
     SectionTitle,
-    AboutContents
+    AboutContents,
+    AboutLists
   }
 }
 </script>

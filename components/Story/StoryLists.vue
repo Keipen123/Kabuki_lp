@@ -3,7 +3,7 @@
     <li class="md:pt-20 flex justify-center md:justify-end">
       <StoryCard>
         <template v-slot:title>
-          01
+          本物への想い 01
         </template>
         <template v-slot:content>
           <p>美術品には新作と贋作がある。　真作とは間違いなくその人の作品であること。　贋作とはオリジナルとは別の作者によって模写、模作され、その作者の名を騙り流通する美術品。</p>
