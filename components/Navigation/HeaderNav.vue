@@ -9,6 +9,7 @@
     <ul class="hidden md:flex flex-row">
       <nav-item link="#story" :mobile="false">STORY</nav-item>
       <nav-item link="#token" :mobile="false">TOKEN</nav-item>
+      <nav-item link="#team" :mobile="false">TEAM</nav-item>
       <nav-item link="#roadmap" :mobile="false">ROADMAP</nav-item>
       <nav-item link="#faq" :mobile="false">FAQ</nav-item>
     </ul>
