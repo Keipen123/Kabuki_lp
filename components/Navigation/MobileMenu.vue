@@ -11,6 +11,7 @@
       <ul class="flex flex-col items-center">
         <nav-item link="#story" :mobile="true">STORY</nav-item>
         <nav-item link="#token" :mobile="true">TOKEN</nav-item>
+        <nav-item link="#team" :mobile="true">TEAM</nav-item>
         <nav-item link="#roadmap" :mobile="true">ROADMAP</nav-item>
         <nav-item link="#faq" :mobile="true">FAQ</nav-item>
       </ul>
