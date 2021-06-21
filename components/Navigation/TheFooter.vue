@@ -19,6 +19,9 @@
         <a href="#token">TOKEN</a>
       </li>
       <li>
+        <a href="#team">TEAM</a>
+      </li>
+      <li>
         <a href="#roadmap">ROADMAP</a>
       </li>
       <li>
