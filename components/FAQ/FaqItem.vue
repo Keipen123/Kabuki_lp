@@ -6,7 +6,7 @@
     </h5>
 
     <div>
-      <p v-if="isOpen">
+      <p v-if="isOpen" class="text-lg">
         <slot name="answer"></slot>
       </p>
     </div>
