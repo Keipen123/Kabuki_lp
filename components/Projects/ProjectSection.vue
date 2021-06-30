@@ -1,5 +1,5 @@
 <template>
-  <LightBackground class="py-20 sm:py-40 relative">
+  <WaveBackground class="py-20 sm:py-40 relative">
     <section id="projects">
       <SectionTitle class="flex flex-col justify-center items-center sm:absolute sm:top-40 sm:left-1/2 sm:transform sm:-translate-x-1/2">
         <template v-slot:default>
@@ -16,17 +16,17 @@
 
       <ProjectContents />
     </section>
-  </LightBackground>
+  </WaveBackground>
 </template>
 
 <script>
-import LightBackground from '@/components/UI/LightBackground'
+import WaveBackground from '@/components/UI/WaveBackground'
 import SectionTitle from '@/components/UI/SectionTitle'
 import ProjectContents from '@/components/Projects/ProjectContents'
 
 export default {
   components: {
-    LightBackground,
+    WaveBackground,
     SectionTitle,
     ProjectContents
   }

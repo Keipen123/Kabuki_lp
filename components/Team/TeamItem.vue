@@ -1,26 +1,26 @@
 <template>
-  <li class="py-5 sm:py-0 flex flex-col items-center">
+  <li class="p-10 bg-white shadow">
 
-    <div>
+    <div class="flex justify-center">
       <slot name="img"></slot>
     </div>
 
-    <h5 class="py-3 text-xl font-bold">
+
+    <h5 class="pb-5 pt-7 text-3xl font-bold text-center">
       <slot name="name"></slot>
     </h5>
 
-    <div>
-      <p>
-        <slot name="desc"></slot>
-      </p>
-    </div>
+    <p class="py-2 text-gray-600">
+      <slot name="desc"></slot>
+    </p>
+
 
   </li>
 </template>
 
 <style lang="postcss" scoped>
   img {
-    @apply rounded-full h-40;
+    @apply rounded-full h-40 shadow border;
   }
 </style>
 
