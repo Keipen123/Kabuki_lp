@@ -7,8 +7,8 @@
           <span>NFT市場の</span>
         </template>
         <template v-slot:red>
-            <span>可能性</span>
-          </template>
+          <span>可能性</span>
+        </template>
       </SectionTitle>
 
       <NftContents />
