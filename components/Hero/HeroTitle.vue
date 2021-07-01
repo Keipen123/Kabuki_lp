@@ -6,6 +6,22 @@
         KABUKI COIN
       </h3>
       <h1 class="font-extrabold text-9xl lg:text-350 text-brown opacity-60">歌舞伎</h1>
+      
+      <div class="relative z-20 pt-14">      
+        <LargeButton link="#">White Paper</LargeButton>
+      </div>
+
+
     </div>
   </div>
 </template>
+
+<script>
+import LargeButton from '@/components/UI/LargeButton'
+
+export default {
+  components: {
+    LargeButton,
+  }
+}
+</script>

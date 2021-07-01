@@ -8,6 +8,7 @@
     <TeamSection />
     <RoadmapSection />
     <FaqSection />
+    <SocialSection />
   </div>
 </template>
 
@@ -20,6 +21,7 @@ import TokenSection from '@/components/Token/TokenSection'
 import TeamSection from '@/components/Team/TeamSection'
 import RoadmapSection from '@/components/Roadmap/RoadmapSection'
 import FaqSection from '@/components/FAQ/FaqSection'
+import SocialSection from '@/components/Social/SocialSection'
 
 export default {
   components: {
@@ -31,6 +33,7 @@ export default {
     TeamSection,
     RoadmapSection,
     FaqSection,
+    SocialSection
   }
 }
 </script>

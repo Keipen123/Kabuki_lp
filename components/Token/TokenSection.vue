@@ -12,7 +12,7 @@
       </template>
     </SectionTitle>
 
-    <ul class="pt-10 flex flex-col items-center md:flex-row md:justify-between">
+    <!-- <ul class="pt-10 flex flex-col items-center md:flex-row md:justify-between">
       <TokenItems>
         <template v-slot:title>
           総供給量
@@ -46,18 +46,24 @@
           KABUKI
         </template>
       </TokenItems>
-    </ul>
+    </ul> -->
+
+    <TokenContents />
+
+
   </section>
 </template>
 
 <script>
 import SectionTitle from '@/components/UI/SectionTitle'
-import TokenItems from '@/components/Token/TokenItems'
+// import TokenItems from '@/components/Token/TokenItems'
+import TokenContents from '@/components/Token/TokenContents'
 
 export default {
   components: {
     SectionTitle,
-    TokenItems
+    // TokenItems,
+    TokenContents
   }
 }
 </script>
