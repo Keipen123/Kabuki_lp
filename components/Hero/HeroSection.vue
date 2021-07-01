@@ -1,17 +1,21 @@
 <template>
   <section id="hero-section">
     <HeroTitle />
+
     <img class="absolute right-0 top-16" src="@/assets/images/kabuki_branch2.png" alt="">
     <img class="absolute left-0 bottom-0" src="@/assets/images/kabuki_branch.png" alt="">
     <img class="kabuki-man" src="@/assets/images/kabuki_man1.png" alt="">
+    
   </section>
 </template>
 
 <script>
 import HeroTitle from '@/components/Hero/HeroTitle'
+import LargeButton from '@/components/UI/LargeButton'
 
 export default {
   components: {
+    LargeButton,
     HeroTitle
   }
 }
